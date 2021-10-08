@@ -1,10 +1,10 @@
 import React, {useState} from "react";
 import { Layout, Menu, Row, Col ,Input, Space,Avatar,Button  } from 'antd';
 import { AudioOutlined } from '@ant-design/icons';
+import { Link } from "react-router-dom";
 
 const { Search } = Input;
 
-const {SubMenu} = Menu;
 const suffix = (
     <AudioOutlined
       style={{
@@ -54,18 +54,16 @@ function Dautrang(){
                     </Col>
                 </Row>
                 <Menu mode="horizontal">
-                    <Menu.Item style={{marginLeft:"9%"}}>Sản phẩm mới</Menu.Item>
-                    <Menu.Item>Áo</Menu.Item>
-                    <Menu.Item>Quần</Menu.Item>
-                    <Menu.Item>Đồ bộ</Menu.Item>
-                    <Menu.Item>Phụ kiện</Menu.Item>
-                    <SubMenu title="Sự kiện">
-                        <Menu.Item>Sự kiện</Menu.Item>
-                    </SubMenu>
-                    <Menu.Item>Thông báo</Menu.Item>
-                    <Menu.Item>Hỗ trợ</Menu.Item>
+                    <Menu.Item style={{marginLeft:"9%"}}><Link to="/">Sản phẩm mới</Link></Menu.Item>
+                    <Menu.Item><Link to="/ao">Áo</Link></Menu.Item>
+                    <Menu.Item><Link to="/quan">Quần</Link></Menu.Item>
+                    <Menu.Item><Link to="/do-bo">Đồ bộ</Link></Menu.Item>
+                    <Menu.Item><Link to="/phu-kien">Phụ kiện</Link></Menu.Item>
+                    <Menu.Item><Link to="/su-kien">Sự kiện</Link></Menu.Item>
+                    <Menu.Item><Link to="/thong-bao">Thông báo</Link></Menu.Item>
+                    <Menu.Item><Link to="/ho-tro">Hỗ trợ</Link></Menu.Item>
                     <Menu.Item></Menu.Item>
-                    <Menu.Item></Menu.Item>
+                    
                     <Menu.Item>
                         <Space direction="vertical">
                             <Search
