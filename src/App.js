@@ -9,14 +9,13 @@ import Sukien from './containers/Sukien/Sukien';
 import Thongbao from './containers/Thongbao/Thongbao';
 import Hotro from './containers/Hotro/Hotro';
 import Phukien from './containers/Phukien/Phukien';
-import Dangnhap from './containers/Dangnhap/Dangnhap';
 import Khongtimthay from './containers/Notfound/Khongtimthay';
 
 function App() {
   return (
     <Router>
       <Switch>
-        <Route  path="/dang-nhap" component={Dangnhap}></Route>
+        
         <Route exact path="/" component={Trangchu}></Route>
         <Route path="/quan" component={Quan}></Route>
         <Route path="/ao" component={Ao}></Route>
