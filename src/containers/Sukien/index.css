@@ -1,0 +1,13 @@
+.su-kien .title{
+    margin-top:10px;
+    background-color: #80808038;
+    padding-left: 30px;
+}
+.su-kien p{
+    text-align: center;
+}
+.su-kien .anh img{
+    width: 50%;
+    height: 30%;
+    margin-left: 25%;
+}

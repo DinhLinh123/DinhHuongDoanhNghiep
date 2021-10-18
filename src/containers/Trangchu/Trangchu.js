@@ -1,8 +1,7 @@
 import React from "react";
 import Dautrang from "../../components/Header/Header";
 import Chantrang from "../../components/Footer/Chantrang";
-import { Layout,Carousel, Row, Col, Button  } from 'antd';
-import { Card } from 'antd';
+import { Layout,Carousel, Row, Col, Button,Card, Image  } from 'antd';
 
 const {Content} = Layout;
 
@@ -13,6 +12,9 @@ const contentStyle = {
     textAlign: 'center',
     background: '#364d79',
   };
+
+  
+
 function Trangchu(){
     return(
         <>
@@ -21,7 +23,7 @@ function Trangchu(){
                 <Content>
                     <Carousel autoplay style={{marginTop:"20px"}}>
                         <div>
-                        <h3 style={contentStyle}>1</h3>
+                        <h3 style={contentStyle}><img src='https://printgo.vn/uploads/media/774255/nguon-hang-thoi-trang_1585710929.jpg' /></h3>
                         </div>
                         <div>
                         <h3 style={contentStyle}>2</h3>
@@ -39,7 +41,7 @@ function Trangchu(){
                             <Card
                             hoverable
                             style={{ width: 350 ,marginLeft:"15%" }}
-                            cover={<img alt="ảnh" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+                            cover={<Image alt="ảnh" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
                             >
                                 <h3>Tên sản phẩm</h3>
                                 <h5>Giá</h5>
@@ -50,7 +52,7 @@ function Trangchu(){
                             <Card
                             hoverable
                             style={{ width: 350 ,marginLeft:"15%" }}
-                            cover={<img alt="ảnh" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+                            cover={<Image alt="ảnh" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
                             >
                                 <h3>Tên sản phẩm</h3>
                                 <h5>Giá</h5>
@@ -61,7 +63,7 @@ function Trangchu(){
                             <Card
                             hoverable
                             style={{ width: 350 ,marginLeft:"15%" }}
-                            cover={<img alt="ảnh" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+                            cover={<Image alt="ảnh" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
                             >
                                 <h3>Tên sản phẩm</h3>
                                 <h5>Giá</h5>
@@ -75,7 +77,7 @@ function Trangchu(){
                             <Card
                             hoverable
                             style={{ width: 350 ,marginLeft:"15%" }}
-                            cover={<img alt="ảnh" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+                            cover={<Image alt="ảnh" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
                             >
                                 <h3>Tên sản phẩm</h3>
                                 <h5>Giá</h5>
@@ -86,7 +88,7 @@ function Trangchu(){
                             <Card
                             hoverable
                             style={{ width: 350 ,marginLeft:"15%" }}
-                            cover={<img alt="ảnh" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+                            cover={<Image alt="ảnh" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
                             >
                                 <h3>Tên sản phẩm</h3>
                                 <h5>Giá</h5>
@@ -97,7 +99,7 @@ function Trangchu(){
                             <Card
                             hoverable
                             style={{ width: 350 ,marginLeft:"15%" }}
-                            cover={<img alt="ảnh" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+                            cover={<Image alt="ảnh" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
                             >
                                 <h3>Tên sản phẩm</h3>
                                 <h5>Giá</h5>
@@ -111,7 +113,7 @@ function Trangchu(){
                             <Card
                             hoverable
                             style={{ width: 350 ,marginLeft:"15%" }}
-                            cover={<img alt="ảnh" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+                            cover={<Image alt="ảnh" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
                             >
                                 <h3>Tên sản phẩm</h3>
                                 <h5>Giá</h5>
@@ -122,7 +124,7 @@ function Trangchu(){
                             <Card
                             hoverable
                             style={{ width: 350 ,marginLeft:"15%" }}
-                            cover={<img alt="ảnh" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+                            cover={<Image alt="ảnh" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
                             >
                                 <h3>Tên sản phẩm</h3>
                                 <h5>Giá</h5>
@@ -133,7 +135,7 @@ function Trangchu(){
                             <Card
                             hoverable
                             style={{ width: 350 ,marginLeft:"15%" }}
-                            cover={<img alt="ảnh" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+                            cover={<Image alt="ảnh" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
                             >
                                 <h3>Tên sản phẩm</h3>
                                 <h5>Giá</h5>

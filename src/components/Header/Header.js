@@ -14,7 +14,6 @@ const suffix = (
     />
   );
   
-  const onSearch = value => console.log(value);
   const UserList = ['Hiếu','Hiền', 'Hồng', 'Ngân', 'Linh'];
   const ColorList = ['#f56a00', '#7265e6', '#ffbf00', '#00a2ae','#7265e6'];
 
@@ -53,25 +52,24 @@ function Dautrang(){
                         </Button>
                     </Col>
                 </Row>
-                <Menu mode="horizontal">
-                    <Menu.Item style={{marginLeft:"9%"}}><Link to="/">Sản phẩm mới</Link></Menu.Item>
-                    <Menu.Item><Link to="/ao">Áo</Link></Menu.Item>
-                    <Menu.Item><Link to="/quan">Quần</Link></Menu.Item>
-                    <Menu.Item><Link to="/do-bo">Đồ bộ</Link></Menu.Item>
-                    <Menu.Item><Link to="/phu-kien">Phụ kiện</Link></Menu.Item>
-                    <Menu.Item><Link to="/su-kien">Sự kiện</Link></Menu.Item>
-                    <Menu.Item><Link to="/thong-bao">Thông báo</Link></Menu.Item>
-                    <Menu.Item><Link to="/ho-tro">Hỗ trợ</Link></Menu.Item>
-                    <Menu.Item></Menu.Item>
+                <Menu mode="horizontal" >
+                    <Menu.Item key={1} style={{marginLeft:"9%"}}><Link to="/">Sản phẩm mới</Link></Menu.Item>
+                    <Menu.Item key={2}><Link to="/ao">Áo</Link></Menu.Item>
+                    <Menu.Item key={3}><Link to="/quan">Quần</Link></Menu.Item>
+                    <Menu.Item key={4}><Link to="/do-bo">Đồ bộ</Link></Menu.Item>
+                    <Menu.Item key={5}><Link to="/phu-kien">Phụ kiện</Link></Menu.Item>
+                    <Menu.Item key={6}><Link to="/su-kien">Sự kiện</Link></Menu.Item>
+                    <Menu.Item key={7}><Link to="/thong-bao">Thông báo</Link></Menu.Item>
+                    <Menu.Item key={8}><Link to="/ho-tro">Hỗ trợ</Link></Menu.Item>
+                    <Menu.Item key={9}></Menu.Item>
                     
-                    <Menu.Item>
+                    <Menu.Item key={10}>
                         <Space direction="vertical">
                             <Search
                             placeholder="Tìm kiếm ..."
                             enterButton="Tìm kiếm"
                             size="large"
                             suffix={suffix}
-                            onSearch={onSearch}
                             />
                         </Space>
                     </Menu.Item>
